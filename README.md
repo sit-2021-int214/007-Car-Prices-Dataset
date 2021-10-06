@@ -15,9 +15,11 @@ With the rise in the variety of cars with differentiated capabilities and featur
 - รถชนิดไหนมีมากที่สุดในตลาด<br>
 
 ### Steps
-
 1. Define a question
-2. Observe...
+2. Observe Data
+3. Loading Library and dataset
+4. Cleaning Data
+5. Answer to all defined question
 
 ### Tools
 
