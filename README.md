@@ -36,7 +36,7 @@ With the rise in the variety of cars with differentiated capabilities and featur
 ### Important Files in Repository
 
 - [code_eda.R](./code_eda.R) : Exploratory Data Analysis
-- [products_original.csv](./Car_Prices_Dataset_Original.csv): Original Dataset
+- [Car_Prices_Dataset_Original.csv](./Car_Prices_Dataset_Original.csv): Original Dataset
 - [products_clean.csv](./products_original.csv): Clean Dataset
 
 ### References
