@@ -1,8 +1,11 @@
 # 007 - Car Prices Dataset
-Datasets from: [Car Prices Dataset](https://www.kaggle.com/sidharth178/car-prices-dataset)
+Original Datasets from: [Car Prices Dataset](https://www.kaggle.com/sidharth178/car-prices-dataset)
 
+### About's Products Datasets
+With the rise in the variety of cars with differentiated capabilities and features such as model, production year, category, brand, fuel type, engine volume, mileage, cylinders, color, airbags, and many more, we are bringing a car price prediction challenge for all. We all aspire to own a car within budget with the best features available. 
 ## Objective
-ทำไมถึงเลือก dataset นี้ : เพราะว่ามีความสนใจในเรื่องของรถ และอยากรู้เกี่ยวกับปัจจัยที่ทำให้รถราคาแตกต่างกัน <br>
+// Write Statement here
+ทกลุ่มของเราเลือกชุดข้อมูลนี้เพราะต้องการศึกษา <br>
 สิ่งที่อยากรู้ : <br>
 - รถที่วิ่งเยอะมีผลต่อราคามากน้อยเพียงได้<br>
 - รถไฮบริดจะมีราคามากกว่ารถยนต์เครื่องธรรมดา<br>
@@ -11,9 +14,35 @@ Datasets from: [Car Prices Dataset](https://www.kaggle.com/sidharth178/car-price
 - Levy มีผลต่อราคารถ<br>
 - รถชนิดไหนมีมากที่สุดในตลาด<br>
 
+### Steps
+
+1. Define a question
+2. Observe...
+
+### Tools
+
+- R Language
+- R Studio Desktop
+
 ## Process
 
-## Result
+## Table of Contents
+
+1. [Exploratory Data Analysis](./01_explore.md)
+2. [Data Visualization]()
+
+## Resources
+
+### Important Files in Repository
+
+- [code_eda.R](./code_eda.R) : Exploratory Data Analysis
+- [products_original.csv](./products_original.csv): Original Dataset
+- [products_clean.csv](./products_original.csv): Clean Dataset
+
+### References
+
+// Link
+
 
 ## About Us
 งานนี้เป็นส่วนของวิชา INT214 Statistics for Information technology <br/> ภาคเรียนที่ 1 ปีการศึกษา 2564 คณะเทคโนโลยีสารสนเทศ มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี
@@ -28,5 +57,3 @@ Datasets from: [Car Prices Dataset](https://www.kaggle.com/sidharth178/car-price
 ### Instructor
 - ATCHARA TRAN-U-RAIKUL
 - JATAWAT XIE (Git: [safesit23](https://github.com/safesit23))
-
-
