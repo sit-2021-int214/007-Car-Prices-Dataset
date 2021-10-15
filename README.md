@@ -18,7 +18,7 @@ With the rise in the variety of cars with differentiated capabilities and featur
 1. Define a question
 2. Observe Data
 3. Loading Library and dataset
-4. Cleaning Data
+4. [Cleaning Data](./term%20assignment/midterm/Cleaning%20Data)
 5. Answer to all defined question
 
 ### Tools
