@@ -21,6 +21,6 @@ Car_Prices <- select(Car_Prices,-c(Doors,Wheel,Engine.volume))
 ## Scope Mileage between 0 - 200000
 Car_Prices <- Car_Prices %>% filter(Mileage <= 200000)
 ## Scope Price between 10000 - MAX PRICE
-Car_Prices <- Car_Prices %>% filter(Price > 10000)
+Car_Prices <- Car_Prices %>% filter(Price >= 10000)
 
 glimpse(Car_Prices)
