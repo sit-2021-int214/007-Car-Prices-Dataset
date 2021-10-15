@@ -4,15 +4,14 @@ Original Datasets from: [Car Prices Dataset](https://www.kaggle.com/sidharth178/
 ### About's Products Datasets
 With the rise in the variety of cars with differentiated capabilities and features such as model, production year, category, brand, fuel type, engine volume, mileage, cylinders, color, airbags, and many more, we are bringing a car price prediction challenge for all. We all aspire to own a car within budget with the best features available. 
 ## Objective
-// Write Statement here
-กลุ่มของเราเลือกชุดข้อมูลนี้เพราะต้องการศึกษา <br>
-สิ่งที่อยากรู้ : <br>
+กลุ่มของเราเลือกชุดข้อมูลนี้เพราะต้องการศึกษาข้อมูลว่า <br>
 - รถที่วิ่งเยอะมีผลต่อราคามากน้อยเพียงได้<br>
 - รถไฮบริดจะมีราคามากกว่ารถยนต์เครื่องธรรมดา<br>
 - รถที่เก่า ราคาจะถูกลดเสมอไหม<br>
 - สีของรถมีผลต่อราคารถหรือไม่<br>
 - Levy มีผลต่อราคารถ<br>
 - รถชนิดไหนมีมากที่สุดในตลาด<br>
+
 
 ### Steps
 1. [Define a question](#Objective)
