@@ -5,20 +5,22 @@ library(assertive)
 library(dplyr)
 
 # Dataset
-cpd <- read.csv("C:/Users/C0MPUT3R/Desktop/car_dataset.csv")
+Car_Prices <- read.csv("https://raw.githubusercontent.com/sit-2021-int214/007-Car-Prices-Dataset/master/term%20assignment/midterm/Original%20Data/Car_Prices_Dataset_Original.csv")
 
 # Cleaning Data
 ## Remove Duplicate Data
-cpd <- cpd %>% distinct()
+Car_Prices <- Car_Prices %>% distinct()
 ## Change Mileage datatype from chr to numeric (remove 'km' and cast type to numeric)
-cpd$Mileage <- cpd$Mileage %>% str_remove("km") %>% str_trim() %>% as.numeric()
+Car_Prices$Mileage <- Car_Prices$Mileage %>% str_remove("km") %>% str_trim() %>% as.numeric()
 ## Replace '-' to 0 and change Levy datatype from chr to numeric
-cpd$Levy <- replace(cpd$Levy,cpd$Levy == '-' , 0) %>% as.numeric()
+Car_Prices$Levy <- replace(Car_Prices$Levy,Car_Prices$Levy == '-' , 0) %>% as.numeric()
 ## Change Leather.interior datatype from chr to logical (replace 'Yes' to TRUE , 'No' to FALSE)
-cpd$Leather.interior <- cpd$Leather.interior %>% replace(cpd$Leather.interior == 'Yes',TRUE) %>% replace(cpd$Leather.interior == 'No',FALSE) %>% as.logical()
+Car_Prices$Leather.interior <- Car_Prices$Leather.interior %>% replace(Car_Prices$Leather.interior == 'Yes',TRUE) %>% replace(Car_Prices$Leather.interior == 'No',FALSE) %>% as.logical()
 ## Remove unused column from dataset
-cpd <- select(cpd,-c(Doors,Wheel,Engine.volume))
+Car_Prices <- select(Car_Prices,-c(Doors,Wheel,Engine.volume))
 ## Scope Mileage between 0 - 200000
-cpd <- cpd %>% filter(Mileage <= 200000)
+Car_Prices <- Car_Prices %>% filter(Mileage <= 200000)
+## Scope Price between 10000 - MAX PRICE
+Car_Prices <- Car_Prices %>% filter(Price > 10000)
 
-glimpse(cpd)
+glimpse(Car_Prices)
