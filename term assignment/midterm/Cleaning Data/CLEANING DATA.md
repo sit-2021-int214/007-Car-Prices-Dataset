@@ -1,25 +1,14 @@
 # CLEANING DATA
 
-## Define a question
+## Define 
 
-1. How many observation of this dataset (before cleaning) ?
-2. Are there duplicate data sets ? (If have duplicate data, list the data that duplicate)
-3. How many distinct school in this dataset ? (Know after drop duplicate data)
-4. What is min, max, average, quartile of each part in SAT ?
-5. What is min, max, average, quartile of total score in SAT ?
-6. Which school is get highest SAT score ?
+1.
 
 Can add more question ....
 
-## Step 0: Loading library and dataset
+## Step 1: Remove Duplicate Data
 
 ```
-# Library
-library(dplyr)
-library(readr)
-library(stringr)
-library(assertive)
+Car_Prices <- Car_Prices %>% distinct()
 
-# Dataset
-sat_score <- read.csv("https://raw.githubusercontent.com/safesit23/INT214-Statistics/main/datasets/SAT_original.csv")
 ```
