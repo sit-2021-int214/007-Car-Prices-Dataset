@@ -27,7 +27,8 @@ Car_Prices$Levy <- replace(Car_Prices$Levy,Car_Prices$Levy == '-' , 0) %>% as.nu
 - เปลี่ยน datatype ให้เป็น numeric เพื่อที่จะนำไปคำนวณได้
 ## Step 4: Change Leather interior datatype from chr to logical (replace 'Yes' to TRUE , 'No' to FALSE)
 ```
-Car_Prices$Leather.interior <- Car_Prices$Leather.interior %>% replace(Car_Prices$Leather.interior == 'Yes',TRUE) %>% replace(Car_Prices$Leather.interior == 'No',FALSE) %>% as.logical()
+Car_Prices$Leather.interior <- Car_Prices$Leather.interior %>% replace(Car_Prices$Leather.interior == 'Yes',TRUE) %>% 
+replace(Car_Prices$Leather.interior == 'No',FALSE) %>% as.logical()
 ```
 - ในข้อมูล Leather interior จะมีเป็น datatype chr ซึ่งจะทำการเปลี่ยนเป็น logical
 - แทนที่ข้อมูลที่เป็น 'Yes' เป็น TRUE และ 'No' เป็น FALSE
