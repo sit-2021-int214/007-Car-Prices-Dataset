@@ -5,7 +5,7 @@ Original Datasets from: [Car Prices Dataset](https://www.kaggle.com/sidharth178/
 With the rise in the variety of cars with differentiated capabilities and features such as model, production year, category, brand, fuel type, engine volume, mileage, cylinders, color, airbags, and many more, we are bringing a car price prediction challenge for all. We all aspire to own a car within budget with the best features available. 
 ## Objective
 // Write Statement here
-ทกลุ่มของเราเลือกชุดข้อมูลนี้เพราะต้องการศึกษา <br>
+กลุ่มของเราเลือกชุดข้อมูลนี้เพราะต้องการศึกษา <br>
 สิ่งที่อยากรู้ : <br>
 - รถที่วิ่งเยอะมีผลต่อราคามากน้อยเพียงได้<br>
 - รถไฮบริดจะมีราคามากกว่ารถยนต์เครื่องธรรมดา<br>
@@ -15,8 +15,8 @@ With the rise in the variety of cars with differentiated capabilities and featur
 - รถชนิดไหนมีมากที่สุดในตลาด<br>
 
 ### Steps
-1. Define a question
-2. Observe Data
+1. [Define a question](#Objective)
+2. [Observe Data](./term%20assignment/midterm/Original%20Data/Car_Prices_Dataset_Original.csv)
 3. [Loading Library and dataset](./term%20assignment/midterm/Cleaning%20Data)
 4. [Cleaning Data](./term%20assignment/midterm/Cleaning%20Data)
 5. Answer to all defined question
