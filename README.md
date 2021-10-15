@@ -18,7 +18,7 @@ With the rise in the variety of cars with differentiated capabilities and featur
 2. [Observe Data](./term%20assignment/midterm/Original%20Data/Car_Prices_Dataset_Original.csv)
 3. [Loading Library and dataset](./term%20assignment/midterm/Cleaning%20Data)
 4. [Cleaning Data](./term%20assignment/midterm/Cleaning%20Data)
-5. [Answer to all defined question](./term%20assignment/midterm/README.md)
+5. [Answer to all defined question](./term%20assignment/midterm)
 
 ### Tools
 
