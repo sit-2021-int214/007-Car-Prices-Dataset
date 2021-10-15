@@ -10,5 +10,7 @@ Can add more question ....
 
 ```
 Car_Prices <- Car_Prices %>% distinct()
-
+```
+```
+จะทำการลบข้อมูลที่ซ้ำออกไปก่อน 
 ```
