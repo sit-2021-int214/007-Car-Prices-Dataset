@@ -1,6 +1,7 @@
 # Data Exploration
 
 ## Step 0: Loading Library and dataset
+
 ```
 library(stringr)
 library(readr)
@@ -43,23 +44,30 @@ $ Airbags          <int> 12, 8, 2, 0, 4, 4, 12, 12, 12, 12, 12, 0, 4, 12, 4, 12,
 ```
 - มี 19,237 Observations และมี 18 Variables
 
+### คำอธิบายของแต่ละ Variables ใน Dataset นี้
+
 ```
-ID = เลข ID ของรถ 
-Price = ค่าประกัน ดูแลบำรุงรถยนต์
-Levy = ค่าภาษี    
-Manufacturer = ผู้ผลิต
-Model = รุ่น
+ID = เลข ID ของรถ (int)
+Price = ค่าประกัน ดูแลบำรุงรถยนต์ (int)
+Levy = ค่าภาษี (chr)
+Manufacturer = ผู้ผลิต (chr)
+Model = รุ่น (chr)
 Prod. year = ปีที่เปิดตัว
-Category = ประเภทของรถ
-Leather interior = ตกแต่งภายในรถด้วยชนิดเบาะหนัง
-Fuel type = ประเภทของน้ำมัน
-Engine volume = อัตราส่วนกำลังอัดเครื่องยนต์
-Mileage = ระยะทางที่รถวิ่งไปได้
-Cylinders = กระกอบสูบ
-Gear box type = ประเภทของฟันเฟือง
-Drive wheels = ล้อรถที่ได้รับกำลังจากเครื่องทำการขับเคลื่อน
-Doors = จำนวนประตูที่รถมี
-Wheel = ตำแหน่งของพวงมาลัย
-Color = สีของรถ
-Airbags = จำนวนของถุงลมนิรภัย
+Category = ประเภทของรถ (chr) 
+Leather interior = ตกแต่งภายในรถด้วยชนิดเบาะหนัง (chr)
+Fuel type = ประเภทของน้ำมัน (chr)
+Engine volume = อัตราส่วนกำลังอัดเครื่องยนต์ (chr)
+Mileage = ระยะทางที่รถวิ่งไปได้ (chr)
+Cylinders = กระกอบสูบ (dbl)
+Gear box type = ประเภทของฟันเฟือง (chr)
+Drive wheels = ล้อรถที่ได้รับกำลังจากเครื่องทำการขับเคลื่อน (chr)
+Doors = จำนวนประตูที่รถมี (chr)
+Wheel = ตำแหน่งของพวงมาลัย (chr)
+Color = สีของรถ (chr)
+Airbags = จำนวนของถุงลมนิรภัย (int)
 ```
+
+## Step 2: ???? < (ฝากคิดชื่อหน่อย)
+-  Levy ค่าภาษีมันเป็น chr จะต้องนำไปแปลงให้เป็น numeric ก่อน เพื่อที่จะสามารถนำไปใช้ในการคิดคำนวณได้ และจะต้อง handle ค่าที่เป็น "-" ด้วย
+-  Leather interior เป็น chr จะต้องนำไปแปลงให้เป็น logical ก่อน เพื่อที่จะสามารถนำไปใช้เปรียบเทียบได้
+-  Mileage เป็น chr และมี "km" ติดมาตรงด้านหลัง จะต้องลบ "km" ออกก่อนแล้วแปลงเป็น numeric เพื่อที่จะสามารถนำไปใช้ในการคิดคำนวณได้
