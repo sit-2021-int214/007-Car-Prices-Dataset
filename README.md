@@ -29,12 +29,10 @@ With the rise in the variety of cars with differentiated capabilities and featur
 
 ## Table of Contents
 
-1. [Exploratory Data Analysis](/term%20assignment/midterm/Data%20Exploration)
+1. [Exploratory Data Analysis](./term%20assignment/midterm/Data%20Exploration/ExplorationCar.R)
 2. [Cleaning Data](./term%20assignment/midterm/Cleaning%20Data)
 3. [Answer to all defined question](./term%20assignment/midterm)
 4. [Data Visualization]() `Final Assignment`
-
-## Resources
 
 ### Important Files in Repository
 
@@ -43,8 +41,7 @@ With the rise in the variety of cars with differentiated capabilities and featur
 - [Car_Prices_Dataset_Clean](./term%20assignment/midterm/Cleaning%20Data/Car_Prices_Dataset_Clean.csv): Clean Dataset
 
 ### References
-
-// Link
+- Car Prices Dataset (https://www.kaggle.com/sidharth178/car-prices-dataset)
 
 
 ## About Us
