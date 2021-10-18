@@ -24,3 +24,4 @@ Car_Prices <- Car_Prices %>% filter(Mileage <= 200000)
 Car_Prices <- Car_Prices %>% filter(Price >= 10000)
 
 glimpse(Car_Prices)
+write.csv(Car_Prices,"./CleaningData.csv")
