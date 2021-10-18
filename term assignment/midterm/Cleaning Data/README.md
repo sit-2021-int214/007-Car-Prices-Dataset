@@ -44,3 +44,4 @@ Car_Prices <- Car_Prices %>% filter(Price >= 10000)
 ```
 write.csv(Car_Prices,"./CleaningData.csv")
 ```
+- นำไฟล์ที่ทำการ Cleaning เสร็จแล้วมา Export เป็นไฟล์ CSV 
