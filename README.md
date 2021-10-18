@@ -14,11 +14,11 @@ With the rise in the variety of cars with differentiated capabilities and featur
 
 
 ### Steps
-1. [Define a question](#Objective)
-2. [Observe Data](./term%20assignment/midterm/Original%20Data/Car_Prices_Dataset_Original.csv)
-3. [Loading Library and dataset](./term%20assignment/midterm/Cleaning%20Data)
-4. [Cleaning Data](./term%20assignment/midterm/Cleaning%20Data)
-5. [Answer to all defined question](./term%20assignment/midterm)
+1. Define a question
+2. Observe Data
+3. Loading Library and dataset
+4. Cleaning Data
+5. Answer to all defined question
 
 ### Tools
 
@@ -30,7 +30,8 @@ With the rise in the variety of cars with differentiated capabilities and featur
 ## Table of Contents
 
 1. [Exploratory Data Analysis](/term%20assignment/midterm/Data%20Exploration)
-2. [Data Visualization]() `Final Assignment`
+2. [Cleaning Data](./term%20assignment/midterm/Cleaning%20Data)
+3. [Data Visualization]() `Final Assignment`
 
 ## Resources
 
