@@ -8,11 +8,10 @@ library(readr)
 library(assertive)
 library(dplyr)
 
-Car_Prices <- read.csv("https://raw.githubusercontent.com/sit-2021-int214/007-Car-Prices-Dataset/master/term%20assignment/midterm/Original%20Data/Car_Prices_Dataset_Original.csv")
+Car_Prices <- read_csv("https://raw.githubusercontent.com/sit-2021-int214/007-Car-Prices-Dataset/master/term%20assignment/midterm/Data%20Exploration/Car_Prices_Dataset_Original.csv")
 ```
 - ดาวน์โหลด Library ที่จำเป็นจะต้องใช้
-
-
+- Original Dataset : [Car_Prices_Dataset_Original](./Car_Prices_Dataset_Original.csv)
 ## Step 1: Observe Data
 
 ```
