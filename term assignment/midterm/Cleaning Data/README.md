@@ -1,16 +1,4 @@
 # CLEANING DATA
-## Step 0: Loading Library and dataset
-```
-library(stringr)
-library(readr)
-library(assertive)
-library(dplyr)
-```
-- ดาวน์โหลด Library ที่จำเป็นจะต้องใช้
-```
-Car_Prices <- read.csv("https://raw.githubusercontent.com/sit-2021-int214/007-Car-Prices-Dataset/master/term%20assignment/midterm/Original%20Data/Car_Prices_Dataset_Original.csv")
-```
-- ดาวน์โหลด Car-Prices-Dataset dataset เพื่อใช้ในการ Cleaning data
 ## Step 1: Remove Duplicate Data
 ```
 Car_Prices <- Car_Prices %>% distinct()
