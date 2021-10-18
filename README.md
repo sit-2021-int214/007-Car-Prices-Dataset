@@ -41,7 +41,7 @@ With the rise in the variety of cars with differentiated capabilities and featur
 - [Car_Prices_Dataset_Clean](./term%20assignment/midterm/Cleaning%20Data/Car_Prices_Dataset_Clean.csv): Clean Dataset
 
 ### References
-- Car Prices Dataset (https://www.kaggle.com/sidharth178/car-prices-dataset)
+- [Car Prices Dataset](https://www.kaggle.com/sidharth178/car-prices-dataset)
 
 
 ## About Us
