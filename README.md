@@ -29,7 +29,7 @@ With the rise in the variety of cars with differentiated capabilities and featur
 
 ## Table of Contents
 
-1. [Exploratory Data Analysis](./term%20assignment/midterm/README.md)
+1. [Exploratory Data Analysis](./term%20assignment/midterm/Data%20Explo)
 2. [Data Visualization]() `Final Assignment`
 
 ## Resources
