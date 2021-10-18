@@ -43,29 +43,6 @@ $ Airbags          <int> 12, 8, 2, 0, 4, 4, 12, 12, 12, 12, 12, 0, 4, 12, 4, 12,
 ```
 - มี 19,237 Observations และมี 18 Variables
 
-### คำอธิบายของแต่ละ Variables ใน Dataset นี้
-
-```
-ID = เลข ID ของรถ (int)
-Price = ค่าประกัน ดูแลบำรุงรถยนต์ (int)
-Levy = ค่าภาษี (chr)
-Manufacturer = ผู้ผลิต (chr)
-Model = รุ่น (chr)
-Prod. year = ปีที่เปิดตัว
-Category = ประเภทของรถ (chr) 
-Leather interior = ตกแต่งภายในรถด้วยชนิดเบาะหนัง (chr)
-Fuel type = ประเภทของน้ำมัน (chr)
-Engine volume = อัตราส่วนกำลังอัดเครื่องยนต์ (chr)
-Mileage = ระยะทางที่รถวิ่งไปได้ (chr)
-Cylinders = กระกอบสูบ (dbl)
-Gear box type = ประเภทของฟันเฟือง (chr)
-Drive wheels = ล้อรถที่ได้รับกำลังจากเครื่องทำการขับเคลื่อน (chr)
-Doors = จำนวนประตูที่รถมี (chr)
-Wheel = ตำแหน่งของพวงมาลัย (chr)
-Color = สีของรถ (chr)
-Airbags = จำนวนของถุงลมนิรภัย (int)
-```
-
 ## Step 2: Dataset Summary
 
 ```
@@ -95,6 +72,28 @@ Result:
                     Mean   : 6.583  
                     3rd Qu.:12.000  
                     Max.   :16.000  
+```
+### คำอธิบายของแต่ละ Variables ใน Dataset นี้
+
+```
+ID = เลข ID ของรถ (int)
+Price = ค่าประกัน ดูแลบำรุงรถยนต์ (int)
+Levy = ค่าภาษี (chr)
+Manufacturer = ผู้ผลิต (chr)
+Model = รุ่น (chr)
+Prod. year = ปีที่เปิดตัว
+Category = ประเภทของรถ (chr) 
+Leather interior = ตกแต่งภายในรถด้วยชนิดเบาะหนัง (chr)
+Fuel type = ประเภทของน้ำมัน (chr)
+Engine volume = อัตราส่วนกำลังอัดเครื่องยนต์ (chr)
+Mileage = ระยะทางที่รถวิ่งไปได้ (chr)
+Cylinders = กระกอบสูบ (dbl)
+Gear box type = ประเภทของฟันเฟือง (chr)
+Drive wheels = ล้อรถที่ได้รับกำลังจากเครื่องทำการขับเคลื่อน (chr)
+Doors = จำนวนประตูที่รถมี (chr)
+Wheel = ตำแหน่งของพวงมาลัย (chr)
+Color = สีของรถ (chr)
+Airbags = จำนวนของถุงลมนิรภัย (int)
 ```
 
 ## Step 3: Analyze Data
