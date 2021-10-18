@@ -129,23 +129,13 @@ Result:
 จากข้อมูลที่ได้ จะเห็น รถประเภท Limousine นั้นมีค่าเฉลี่ยของภาษีอยู่ที่ 0 ดอลลาร์ ในขณะที่ Universal นั้นมีค่าเฉลี่ยของภาษีสูงถึง 832 ดอลลาร์ นั้นอาจจะหมายถึงชนิดของรถแต่ละประเภทนั้นมีภาษีที่แตกต่างกัน ซึ่งอาจจะมีผลต่อราคาของรถด้วย 
 ## Question 6: รถชนิดไหนมีมากที่สุดในตลาด ?
 ```
-Car_Prices %>% group_by(Category) %>% count(Category)
+Car_Prices   %>% group_by(Category)  %>% count(Category) %>% arrange(desc(n)) %>% head(1)
 ```
 Result:
 ```
-   Category        n
-   <chr>       <int>
- 1 Cabriolet      23
- 2 Coupe         324
- 3 Goods wagon    53
- 4 Hatchback    1331
- 5 Jeep         3003
- 6 Limousine       5
- 7 Microbus      140
- 8 Minivan       431
- 9 Pickup         28
-10 Sedan        4124
-11 Universal     204
+  Category     n
+  <chr>    <int>
+1 Sedan     4124
 ```
 - Summary <br>
 รถประเภท Sedan ในข้อมูลนี้จะมี 4124 คัน ซึ่งมีมากที่สุดในตลาด
