@@ -66,7 +66,38 @@ Color = สีของรถ (chr)
 Airbags = จำนวนของถุงลมนิรภัย (int)
 ```
 
-## Step 2: Analyze Data
+## Step 2: Dataset Summary
+
+```
+summary(Car_Prices)
+```
+
+Result:
+```
+       ID               Price              Levy           Manufacturer          Model             Prod..year     Category         Leather.interior  
+ Min.   :20746880   Min.   :       1   Length:19237       Length:19237       Length:19237       Min.   :1939   Length:19237       Length:19237      
+ 1st Qu.:45698374   1st Qu.:    5331   Class :character   Class :character   Class :character   1st Qu.:2009   Class :character   Class :character  
+ Median :45772308   Median :   13172   Mode  :character   Mode  :character   Mode  :character   Median :2012   Mode  :character   Mode  :character  
+ Mean   :45576536   Mean   :   18556                                                            Mean   :2011                                        
+ 3rd Qu.:45802036   3rd Qu.:   22075                                                            3rd Qu.:2015                                        
+ Max.   :45816654   Max.   :26307500                                                            Max.   :2020                                        
+  Fuel.type         Engine.volume        Mileage            Cylinders      Gear.box.type      Drive.wheels          Doors              Wheel          
+ Length:19237       Length:19237       Length:19237       Min.   : 1.000   Length:19237       Length:19237       Length:19237       Length:19237      
+ Class :character   Class :character   Class :character   1st Qu.: 4.000   Class :character   Class :character   Class :character   Class :character  
+ Mode  :character   Mode  :character   Mode  :character   Median : 4.000   Mode  :character   Mode  :character   Mode  :character   Mode  :character  
+                                                          Mean   : 4.583                                                                              
+                                                          3rd Qu.: 4.000                                                                              
+                                                          Max.   :16.000                                                                              
+    Color              Airbags      
+ Length:19237       Min.   : 0.000  
+ Class :character   1st Qu.: 4.000  
+ Mode  :character   Median : 6.000  
+                    Mean   : 6.583  
+                    3rd Qu.:12.000  
+                    Max.   :16.000  
+```
+
+## Step 3: Analyze Data
 
 ### ทำการ ตรวจสอบ / วิเคราะห์ Variables ที่จะนำไปใช้ว่ามีปัญหาไหม ต้องแก้ไขอย่างไร
 -  Levy ค่าภาษีมันเป็น chr จะต้องนำไปแปลงให้เป็น numeric ก่อน เพื่อที่จะสามารถนำไปใช้ในการคิดคำนวณได้ และจะต้อง handle ค่าที่เป็น "-" ด้วย
