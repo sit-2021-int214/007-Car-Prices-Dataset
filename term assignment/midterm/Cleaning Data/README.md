@@ -40,3 +40,7 @@ Car_Prices <- Car_Prices %>% filter(Mileage <= 200000)
 Car_Prices <- Car_Prices %>% filter(Price >= 10000)
 ```
 - กำหนดขอบเขตของข้อมูล Price ให้มากกว่า 10000 ขึ้นไป
+## Step 8: Export to CSV file
+```
+write.csv(Car_Prices,"./CleaningData.csv")
+```
