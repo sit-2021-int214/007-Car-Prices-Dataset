@@ -7,35 +7,76 @@
 - Levy มีผลต่อราคารถหรือไม่
 - รถชนิดไหนมีมากที่สุดในตลาด
 ## Question 1: รถที่วิ่งเยอะมีผลต่อราคามากน้อยเพียงใด ?
+- Low Mileage 
 ```
-
+lowmileage <- Car_Prices %>% filter(Mileage > 50000)
+lowmileage %>% summarise(meanPrice = mean(Price))
 ```
 Result:
-
 ```
+  meanPrice
+1  28407.67
+```
+- High Mileage 
+```
+highmileage <- Car_Prices %>% filter(Mileage < 50000)
+highmileage %>% summarise(meanPrice = mean(Price))
+```
+Result:
+```
+  meanPrice
+1  35126.65
 ```
 - Summary <br>
-อธิบายค่าาาาาาาาาาาาา
+จากข้อมูลจะเห็นได้ว่า 
 ## Question 2: รถไฮบริดจะมีราคามากกว่ารถยนต์เครื่องธรรมดา ?
+- Average price of a hybrid car
 ```
-
+car_hybrid <- Car_Prices %>% filter(Fuel.type == 'Hybrid')
+View(car_hybrid)
+mean(car_hybrid$Price)
 ```
 Result:
-
 ```
+19766.29
+```
+- Average price of a normal car
+```
+car_normal <- Car_Prices %>% filter(Fuel.type == 'Petrol' | Fuel.type == 'Diesel')
+View(car_normal)
+mean(car_normal$Price)
+```
+Result:
+```
+32178.07
 ```
 - Summary <br>
-อธิบายค่าาาาาาาาาาาาา
+จากข้อมูลจะเห็นได้ว่า รถที่มีเครื่องยนต์ธรรมดานั้นมีค่าเฉลี่ยของราคาอยู่ที่ 32178.07 ดอลลาร์ ซึ่งสูงกว่ารถไฮบริดที่มีค่าเฉลี่ยของราคาอยู่ที่ 19766.29 ดอลลาร์ จากDatasetนี้จึงสรุปได้ว่าไฮบริดไม่ได้มีราคามากกว่ารถยนต์เครื่องธรรมดา 
 ## Question 3: รถที่เก่าราคาจะถูกลดเสมอไหม?
+- Old Cars
 ```
-
+oldcars <- Car_Prices %>% filter(Prod..year < 2000) %>% arrange(Prod..year)
+View(oldcars)
+oldcars %>% summarise(meanPrice = mean(Price))
 ```
 Result:
-
 ```
+  meanPrice
+1  339164.6
+```
+- Modern Cars
+```
+moderncars <- Car_Prices %>% filter(Prod..year > 2000) %>% arrange(Prod..year)
+View(moderncars)
+moderncars %>% summarise(meanPrice = mean(Price))
+```
+Result:
+```
+  meanPrice
+1  27144.79
 ```
 - Summary <br>
-อธิบายค่าาาาาาาาาาาาา
+จากข้อมูลจะเห็นได้ว่า รถที่เก่าจะมีคาเฉลี่ยของราคารถอยู่ที่ 339164.6 ดอลลาร์ ซึ่งราคาสูงกว่ารถใหม่ที่มีค่าเฉลี่ยของราคารถอยู่ที่ 27144.79 ดอลลาร์ ดังนั้นรถที่เก่าราคาจะถูกลดเสมอนั้นไม่เป็นความจริง
 ## Question 4: สีของรถมีผลต่อราคารถหรือไม่ ?
 ```
 Car_Prices %>% group_by(Color) %>% summarise(meanprice = mean(Price))
