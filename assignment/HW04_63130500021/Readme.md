@@ -39,13 +39,13 @@ $ Number_Of_Pages <int> 105, 527, 50, 393, 305, 288, 256, 368, 259, 128, 352, 35
 $ Type            <chr> "Hardcover", "Hardcover", "Kindle Edition", "Hardcover", "Kindle Edition", ~
 $ Price           <dbl> 9.323529, 11.000000, 11.267647, 12.873529, 13.164706, 14.188235, 14.232353,~
 ```
-Rating : คะแนนหนังสือ
-Reviews : จำนวนความคิดเห็น
-Book_title : ชื่อหนังสือ
-Description : คำอธิบาย
-Number_Of_Pages : จำนวนของหนังสือ
-Type : รูปแบบหนังสือ
-Price : ราคาหนังสือ
+- Rating : คะแนนหนังสือ
+- Reviews : จำนวนความคิดเห็น
+- Book_title : ชื่อหนังสือ
+- Description : คำอธิบาย
+- Number_Of_Pages : จำนวนของหนังสือ
+- Type : รูปแบบหนังสือ
+- Price : ราคาหนังสือ
 
 1. เช็คว่ามีค่า null ในตัว dataset ไหม
 ```
