@@ -26,10 +26,10 @@ xxxxxxxxxxx
 
 ### Step 0 : Assign variables
 ``` ruby
-n <- count(app)
-sd <- sd(app$Rating) 
-xbar <- mean(app$Rating)
-u0 <- 4
+n <- count()
+sd <- sd() 
+xbar <- mean()
+u0 <- 
 ```
 ### Step 1 : State the hypothesis
 ``` ruby
@@ -62,9 +62,9 @@ zalpha <- qnorm(alpha);
 #### Result
 ``` ruby
 > pvalue
-[1] 
+[] 
 > zalpha
-[1] 
+[] 
 ```
 
 ### Step 5 : Compare P-value with alpha or z/t with zalpha/talpha
