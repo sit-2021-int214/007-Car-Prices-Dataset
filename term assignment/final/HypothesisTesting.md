@@ -21,20 +21,21 @@
 5. Compare P-value with alpha or z/t with zalpha/talpha
 6. Conclusion
 ## Define question
-xxxxxxxxxxx
+average milage of all cars is 100483, if we random bought 350 cars to our tent
+and our cars average milage is not higher than all average? (alpha = 0.05)
 
 
 ### Step 0 : Assign variables
 ``` ruby
-n <- count()
-sd <- sd() 
-xbar <- mean()
-u0 <- 
+mue0 <- 100483
+mean_intent <- mean(carInTent$Mileage) #97098.93
+sd_intent <- sqrt(var(carInTent$Mileage)) #52544.04
+n <- 350
 ```
 ### Step 1 : State the hypothesis
 ``` ruby
-H0:
-Ha:
+#Ho : u <= 100483
+#Ha : u > 10048
 ```
 
 ### Step 2 : Select Level of significance
@@ -44,33 +45,43 @@ alpha <- 0.05
 
 ### Step 3 : Select Test statistic
 ```ruby
-z <- ((xbar - u0) / (sd/sqrt(n)));
-z <- z$n
+t_intent <- -1*(mean_intent-mue0)/(sd_intent/sqrt(n))
 ```
 #### Result
 ``` ruby
-[1] 
+#1.204897
 ```
 ### Step 4 : Finding P-value approach or Critical Value approach
 ```ruby
 # P-value approach
-pvalue <- pnorm(z);
+p_value_intent <- pt(t_intent, n)
 
 # Critical Value approach
-zalpha <- qnorm(alpha);
+cri <- qt(0.05, n, lower.tail = FALSE)
 ```
 #### Result
 ``` ruby
 > pvalue
-[] 
+#0.8854715
 > zalpha
-[] 
+#1.649219
 ```
 
 ### Step 5 : Compare P-value with alpha or z/t with zalpha/talpha
 ``` ruby
-
+#with p-value
+if(p_value_intent<=0.05){
+  print("reject H0")
+}else{
+  print("accept H0")
+}
+#with critical-value
+if(t_intent>=cri){
+  print("reject H0")
+}else{
+  print("accept H0")
+}
 ```
 
 ### Step 6 : Conclusion
-xxxxxxxxxxxxxxxxxxxxxxxxx
+cars in our tent is less milage than other in market.
