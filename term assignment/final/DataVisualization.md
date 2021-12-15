@@ -1,6 +1,6 @@
 # Data Visualization (BI Tools)
 ### จากการใช้ Bi tool ในการสำรวจข้อมูล ทำให้ทราบข้อมูลดังนี้ 
-### Dashboard: [Here](https://app.powerbi.com/view?r=eyJrIjoiMGRjZjI1NzYtMjdiZi00ZmMzLWI3NzUtMWZkZWQwOTJjNTVjIiwidCI6IjZmNDQzMmRjLTIwZDItNDQxZC1iMWRiLWFjMzM4MGJhNjMzZCIsImMiOjEwfQ%3D%3D), [Here](https://app.powerbi.com/view?r=eyJrIjoiMGRjZjI1NzYtMjdiZi00ZmMzLWI3NzUtMWZkZWQwOTJjNTVjIiwidCI6IjZmNDQzMmRjLTIwZDItNDQxZC1iMWRiLWFjMzM4MGJhNjMzZCIsImMiOjEwfQ%3D%3D)
+### Dashboard: [Here](https://app.powerbi.com/view?r=eyJrIjoiMGRjZjI1NzYtMjdiZi00ZmMzLWI3NzUtMWZkZWQwOTJjNTVjIiwidCI6IjZmNDQzMmRjLTIwZDItNDQxZC1iMWRiLWFjMzM4MGJhNjMzZCIsImMiOjEwfQ%3D%3D)
 
 1.gxhhngfhkm <br>
 ![image](https://user-images.githubusercontent.com/50835875/146220421-02f0a67f-09d3-450b-96d1-906b00180509.png)<br>
