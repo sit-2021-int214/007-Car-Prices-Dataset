@@ -2,7 +2,7 @@
 ### จากการใช้ Bi tool ในการสำรวจข้อมูล ทำให้ทราบข้อมูลดังนี้ 
 ### Dashboard: [Here](https://app.powerbi.com/view?r=eyJrIjoiMGRjZjI1NzYtMjdiZi00ZmMzLWI3NzUtMWZkZWQwOTJjNTVjIiwidCI6IjZmNDQzMmRjLTIwZDItNDQxZC1iMWRiLWFjMzM4MGJhNjMzZCIsImMiOjEwfQ%3D%3D), [Here](https://app.powerbi.com/view?r=eyJrIjoiMGRjZjI1NzYtMjdiZi00ZmMzLWI3NzUtMWZkZWQwOTJjNTVjIiwidCI6IjZmNDQzMmRjLTIwZDItNDQxZC1iMWRiLWFjMzM4MGJhNjMzZCIsImMiOjEwfQ%3D%3D)
 
-![image](https://user-images.githubusercontent.com/50835875/146219231-c703494a-a192-4983-9dfd-aa6efc15ecd4.png)<br>
+![image](https://app.powerbi.com/view?r=eyJrIjoiMGRjZjI1NzYtMjdiZi00ZmMzLWI3NzUtMWZkZWQwOTJjNTVjIiwidCI6IjZmNDQzMmRjLTIwZDItNDQxZC1iMWRiLWFjMzM4MGJhNjMzZCIsImMiOjEwfQ%3D%3D)<br>
 1.gxhhngfhkm
 ![image](https://user-images.githubusercontent.com/50835875/146219316-f08bd830-1e41-4864-9cbc-d90027224761.png)<br>
 2.
