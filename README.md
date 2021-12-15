@@ -32,7 +32,7 @@ With the rise in the variety of cars with differentiated capabilities and featur
 1. [Exploratory Data Analysis](./term%20assignment/midterm/Data%20Exploration)
 2. [Cleaning Data](./term%20assignment/midterm/Cleaning%20Data)
 3. [Answer to all defined question](./term%20assignment/midterm)
-4. [Data Visualization](./term assignment/final/DataVisualization.md) `Final Assignment`
+4. [Data Visualization](./term%20assignment/midterm/README.md) `Final Assignment`
 
 ### 🖇˚ Important Files in Repository  
 
