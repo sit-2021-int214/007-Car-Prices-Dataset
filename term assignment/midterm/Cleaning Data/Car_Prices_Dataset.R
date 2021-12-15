@@ -5,8 +5,8 @@ library(assertive)
 library(dplyr)
 
 # Dataset
-Car_Prices <- read.csv("https://raw.githubusercontent.com/sit-2021-int214/007-Car-Prices-Dataset/master/term%20assignment/midterm/Original%20Data/Car_Prices_Dataset_Original.csv")
-
+Car_Prices <- read.csv("https://raw.githubusercontent.com/sit-2021-int214/007-Car-Prices-Dataset/master/term%20assignment/midterm/Data%20Exploration/Car_Prices_Dataset_Original.csv")
+View(Car_Prices)
 # Cleaning Data
 ## Remove Duplicate Data
 Car_Prices <- Car_Prices %>% distinct()
@@ -20,8 +20,10 @@ Car_Prices$Leather.interior <- Car_Prices$Leather.interior %>% replace(Car_Price
 Car_Prices <- select(Car_Prices,-c(Doors,Wheel,Engine.volume))
 ## Scope Mileage between 0 - 200000
 Car_Prices <- Car_Prices %>% filter(Mileage <= 200000)
-## Scope Price between 10000 - MAX PRICE
-Car_Prices <- Car_Prices %>% filter(Price >= 10000)
+## Scope Price between 10000 - 1000000
+Car_Prices <- Car_Prices %>% filter(Price >= 10000 | Price <= 1000000)
+
+
 
 glimpse(Car_Prices)
 write.csv(Car_Prices,"./CleaningData.csv")
