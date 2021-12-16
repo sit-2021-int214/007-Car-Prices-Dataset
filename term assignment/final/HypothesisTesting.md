@@ -41,7 +41,7 @@ n <- 350
 ### Step 1 : State the hypothesis
 ``` ruby
 Ho : u <= 100483
-Ha : u > 10048
+Ha : u > 100483
 ```
 
 ### Step 2 : Select Level of significance
@@ -73,10 +73,10 @@ cri <- qt(alpha, n-1, lower.tail = FALSE)
 1.649231
 ```
 
-### Step 5 : Compare P-value with alpha or z/t with zalpha/talpha
+### Step 5 : Compare P-value with alpha or t with talpha
 ``` ruby
 #with p-value
-if(p_value_intent<=0.05){
+if(p_value_intent<=alpha){
   print("reject H0")
 }else{
   print("accept H0")
