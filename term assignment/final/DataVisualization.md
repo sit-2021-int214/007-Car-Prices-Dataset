@@ -1,6 +1,6 @@
 # Data Visualization (BI Tools)
 ### จากการใช้ Bi tool ในการสำรวจข้อมูล ทำให้ทราบข้อมูลดังนี้ 
-### Dashboard: [Here](https://app.powerbi.com/view?r=eyJrIjoiMGRjZjI1NzYtMjdiZi00ZmMzLWI3NzUtMWZkZWQwOTJjNTVjIiwidCI6IjZmNDQzMmRjLTIwZDItNDQxZC1iMWRiLWFjMzM4MGJhNjMzZCIsImMiOjEwfQ%3D%3D)
+### Dashboard: [Here](https://app.powerbi.com/view?r=eyJrIjoiOTZjNmQ1MDctYjVkNy00ZTZiLWFlMmUtNzdiYzc2ZGJkMWRjIiwidCI6IjZmNDQzMmRjLTIwZDItNDQxZC1iMWRiLWFjMzM4MGJhNjMzZCIsImMiOjEwfQ%3D%3D)
 
 1. สีของรถที่ได้รับความนิยมในท้องตลาด <br>
 ![image](https://user-images.githubusercontent.com/50835875/146510660-2cd7d069-686d-470c-87bf-651f220bf0b2.png)<br>
