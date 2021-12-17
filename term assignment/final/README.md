@@ -5,4 +5,4 @@
 
 
 # HypothesisTesting
- [Hypothesis Testing](./term%20assignment/final/HypothesisTesting.md)
+ [Hypothesis Testing](./HypothesisTesting.md)
